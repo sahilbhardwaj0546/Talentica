@@ -1,0 +1,169 @@
+@import '../../scss/variables';
+.desktop-logo-div
+{
+    @media screen and (max-width: 766px){
+        display:none !important;
+    }
+}
+.mob-logo-bar{
+    color:$themeColor;
+
+}
+.nav-search-bar
+{
+    padding: 2% 0%;
+    text-align: center;
+}
+.nav-search-bar-row
+{
+    @media screen and (max-width: 766px){
+        background-color: $white;
+       padding-top: 1rem;
+    }
+  
+}
+
+.mob-logo-bar
+{
+    font-size: 1.5rem;    
+    margin: 0px;
+}
+.mob-menu-bar
+{
+    font-size: 1.5rem;    
+    padding-left: 6%;
+}
+
+.nav-bar
+{
+    @media screen and (max-width: 766px){
+        background-color: $white;
+        a{
+            color: lightgray;
+            margin: 0;
+
+           
+        }
+    }
+}
+.search-bar
+{
+    @media screen and (max-width: 766px){
+        background-color: $white;
+    }
+}
+button
+{
+    @media screen and (max-width: 766px){
+        float:none !important;
+        margin-bottom: 1rem;
+    }   
+}
+.fa-search{
+    position: absolute;
+left: 1.1rem;
+top: 0.3rem;
+}
+
+.desktop-logo
+{
+    text-align: center;
+    background: $white;
+    font-size: 2rem;
+    color: $themeColor;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+
+.menu-bar
+{
+    background: $white;
+    @media screen and (max-width: 766px){ padding-top: .5rem};
+}
+
+
+.main-content
+{
+    text-align: center;
+}
+.main-para
+{
+    font-weight: bold;
+  
+    font-size: 2rem;
+}
+p{
+    color: $white;
+}
+a{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+  a:hover {
+    color: $white;
+  }
+
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.fa-search
+{
+    position: absolute;
+    left: .6rem;
+    top: 0.70rem;
+    @media screen and (max-width: 766px) {
+        top:0.4rem
+    }
+}
+input{
+    border: none;
+    width: inherit;
+    @media screen and (max-width: 766px){
+    padding-left: 1.8rem;}}
+.search-bar
+{
+    background-color: $white;
+    padding: .5% 2%;
+    border-radius: 3rem;
+    padding-left:1.5rem;
+    color: lightgray;
+    border: 1px solid;
+    @media screen and (max-width: 766px){
+        margin: auto;
+        width: 60%;
+     }
+    
+   
+}
+.container-icons i{
+    font-size: 5rem;
+        color: yellow;
+}
+.row
+{
+    width:100%;
+    
+
+}
+.sign-up
+{
+    background-color: $themeColor;
+    padding: .5% 2%;
+    border-radius: .5rem;
+    border: 1px solid $white;
+    color: $white;
+    width: 40%;
+    float: right;
+}
+.login-button
+{
+background-color: $white;
+padding: .5% 2%;
+border-radius: .5rem;
+border: 1px solid $white;
+color: $themeColor;
+width: 40%;
+float: left;
+}
